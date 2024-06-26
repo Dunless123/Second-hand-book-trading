@@ -1,0 +1,86 @@
+.navItem{
+    font-size: 17px;
+    
+}
+
+.saleDetail {
+    width: 1500px;
+    height: 810px;
+    border-radius: 10px;
+    background-color: white;
+    opacity: 0.9;
+    margin: auto;
+}
+
+
+.saleItem {
+    width: 1500px;
+    height: 200px;
+    margin-top: 65px;
+    display: flex;
+
+}
+
+.saleItem img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
+.rtext {
+    width: 300px;
+    height: 200px;
+
+}
+
+.bookName {
+    font-size: 30px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.bookPirce {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.bookPirce span {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.bookSaleUser {
+    width: 1300px;
+    height: 500px;
+    background-color: white;
+    opacity: 0.9;
+    margin-top: 10px;
+    margin-left: 92px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.saleBlock {
+    width: 1500px;
+    height: 600px;
+    margin-top: 25px;
+}
+
+.divText {
+    font-size: 24px;
+    font-weight: 500;
+    margin: auto;
+    text-align: center;
+}
+
+.divline {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1), transparent);
+}

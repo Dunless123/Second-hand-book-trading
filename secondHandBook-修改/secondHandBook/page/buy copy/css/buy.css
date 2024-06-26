@@ -1,0 +1,70 @@
+.navItem{
+    font-size: 17px;
+    
+}
+
+.bookBlock {
+    width: 1500px;
+    height: 800px;
+    background-color: white;
+    opacity: 0.9;
+    margin-top: 65px;
+    margin-left: 92px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+}
+
+.bookBlock2 {
+    width: 1280px;
+    height: 680px;
+    margin-left: 110px;
+    padding-top: 30px;
+}
+
+.bookBlockCpoint {
+    width: 300px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    float: left;
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.bookBlockCpoint img {
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    
+
+}
+
+.bookBlockCpoint>.hotBookarea{
+    border-radius: 10px;
+}
+
+.bookBlockCpoint>.hotBookarea img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.bookBlockCpoint>.hotBookIntroduce{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.bookBlockCpoint>.hotBookIntroduce>div{
+    font-size: 16px;
+    color: #FFB6C1;
+}
+
+.bookArea{
+    display: flex;
+}

@@ -1,0 +1,76 @@
+.navItem{
+    font-size: 17px;
+    
+}
+
+.creatOrder {
+    width: 1500px;
+    height: 600px;
+    background-color: rgba(255,255,255,0.9);
+    opacity: 0.9;
+    margin-top: 65px;
+    margin-left: 92px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.divline {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.1), transparent);
+}
+
+.Order {
+    width: 100%;
+    height: 400px;
+    
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+.img img {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.name {
+    width: 200px;
+    height: 50px;
+    margin: auto; 
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
+.price {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: red;
+    display: flex;
+}
+
+.btn {
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: 655px;
+}

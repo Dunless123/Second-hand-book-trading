@@ -1,0 +1,296 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/dgirl.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.navItem{
+    font-size: 17px;
+    
+}
+
+.head {
+    width: 100%;
+    height: 45px;
+    background-color: rgba(236, 238, 236, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    opacity: 0.9;
+    transition: all 0.5s;
+    display: inline-flex;
+    z-index: 10;
+    user-select: none;
+}
+
+.change {
+    background-color: rgba(236, 238, 236, 0.9);
+    transition: all 0.5s;
+}
+
+.navIcon {
+    width: 500px;
+    height: 100%;
+    margin-left: 500px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.navItem {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    text-decoration: none;
+    color: black;
+}
+
+.home:active {
+    color: white;
+}
+
+.buyCenter {
+    text-decoration: none;
+    color: black;
+}
+
+.buyCenter:active {
+    color: white;
+}
+
+.saleCenter {
+    text-decoration: none;
+    color: black;
+}
+
+.saleCenter:active {
+    color: white;
+}
+
+.resBuyCenter {
+    text-decoration: none;
+    color: black;
+}
+
+.resBuyCenter:active {
+    color: white;
+}
+
+
+.user {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 165px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    user-select: none;
+}
+
+.user span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.user img {
+    width: 45px;
+    height: 100%;
+}
+
+.downlist {
+    width: 100px;
+    height: 0px;
+    position: absolute;
+    top: 45px;
+    left: 8px;
+    background-color: rgba(236, 238, 236, 0.9);
+    border-radius: 2px;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.droplist {
+    height: 60px;
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.uplist {
+    height: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.setUser {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.setUser:hover {
+    background-color: #cfcece;
+}
+
+.setUser a {
+    text-decoration: none;
+    color: black;
+}
+
+.outLogin {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.outLogin:hover {
+    background-color: #cfcece;
+}
+
+.titleIcon {
+    width: 180px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    justify-content: center;
+}
+
+.text {
+    line-height: 45px;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: kaiti;
+    font-weight: bold;
+}
+
+.centerInfo {
+    display: inline-flex;
+}
+
+.leftSwiper {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.rightNotice {
+    width: 800px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.99);
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 50px;
+    opacity: 0.9;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hNotice {
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.devideLine {
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+.hotBookText {
+    width: 1450px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.hotBook {
+    width: 1450px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-left: 100px;
+    margin-top: 20px;
+    opacity: 0.9;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.hotBook2 {
+    width: 1280px;
+    height: 340px;
+    margin-left: 90px;
+}
+
+.hotBookBlock {
+    width: 300px;
+    height: 150px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.hotBookBlock>.hotBookarea{
+    border-radius: 10px;
+}
+
+.hotBookBlock>.hotBookarea img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.hotBookBlock>.hotBookIntroduce{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    position: absolute;
+    line-height: 25px;
+    top: 0px;
+    right: 0px;
+}
+
+.hotBookBlock>.hotBookIntroduce>div{
+    font-size: 16px;
+    color: #FFB6C1;
+}
+
+.bookArea{
+    display: flex;
+}
+
+.active>img{
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}

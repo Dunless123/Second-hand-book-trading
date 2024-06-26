@@ -1,0 +1,174 @@
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/sungirl.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.centerLogin{
+    width: 300px;
+    height: 400px;
+    background-color:rgba(234, 229, 229, 0.9);
+    margin: auto;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+@keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+}
+
+.user{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    float: left;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.user img{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.user span{
+    width: 1px;
+    height: 15px;
+    background-color: black;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.user input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+
+
+.password{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    float: left;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.password img{
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.password span{
+    width: 1px;
+    height: 15px;
+    background-color: black;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.password input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.btn button{
+    width: 250px;
+    height: 40px;
+    background-color: #2d8cf0;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.btn:hover button{
+    background-color: #57a3f3;
+}
+
+.select{
+    width: 250px;
+    height: 20px;
+    display: flex;
+    float: left;
+}
+
+.select span{
+    margin-right: 100px;
+}
+
+#autoLog{
+    color: #2d8cf0;
+}
+
+.registerClick{
+    color: #2d8cf0;
+    cursor: pointer;
+}
+
+.registerClick:hover{
+    color: #57a3f3;
+}
+
+.centerRegister{
+    width: 300px;
+    height: 400px;
+    background-color:rgba(234, 229, 229, 0.9);
+    margin: auto;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeInRight;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+@keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+}
+
+.back{
+    width: 240px;
+    height: 20px;
+    float: left;
+    cursor: pointer;
+    color: #2d8cf0;
+}
+
+.back:hover{
+    color: #57a3f3;
+}

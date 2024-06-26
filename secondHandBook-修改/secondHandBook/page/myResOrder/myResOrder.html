@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二手书交易</title>
+    <link rel="icon" href="./image/书吧.png">
+    <link rel="stylesheet" href="../main/css/main.css">
+    <link rel="stylesheet" href="./css/myResOrder.css">
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="../main/js/main.js"></script>
+    <script src="./js/myResOrder.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet"
+        href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css"
+        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+        crossorigin="anonymous">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"
+        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="head ">
+        <div class="titleIcon">
+            <img src="./image/书本.png" alt="">
+            <div class="text"><span>二手书交易</span></div>
+        </div>
+        <div class="navIcon">
+            <div class="navItem">
+                <a class="home" href="../main/main.html">首页</a>
+            </div>
+            <div class="navItem">
+                <a class="buyCenter" href="../buy/buy.html">买家中心</a>
+            </div>
+            <div class="navItem">
+                <a class="saleCenter" href="../sale/sale.html">卖家中心</a>
+            </div>
+            <div class="navItem">
+                <a class="resBuyCenter" href="../resbuy/resbuy.html">求购中心</a>
+            </div>
+        </div>
+        <div class="user">
+            <span>用户昵称</span>
+            <img src="./image/用户2.png" alt="">
+            <div class="downlist">
+                <div class="setUser">
+                    <a href="../user/user.html">用户设置</a>
+                </div>
+                <div class="outLogin">
+                    <span>退出登录</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bookSaleBlock">
+        <table class="table table-hover table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>求购时间</th>
+                    <th>书籍名</th>
+                    <th>求购金额</th>
+                    <th>求购数量</th>
+                    <th>书籍图片</th>
+                    <th>状态</th>
+                    <th>编辑</th>
+                    <th>删除</th>
+                </tr>
+            </thead>
+            <tbody class="userPoint">
+                
+            </tbody>
+        </table>
+
+        <div class="addForm" style="position: absolute;top: 25%;left: 30%;">
+            <form>
+                <span class="glyphicon glyphicon-remove shutIcon" aria-hidden="true"></span>
+                <div class="form-group">
+                    <label for="text">书籍名</label>
+                    <input type="text" class="form-control" id="addbookName" placeholder="书籍名">
+                </div>
+                <div class="form-group">
+                    <label for="text">求购金额</label>
+                    <input type="text" class="form-control" id="addbookPrice" placeholder="求购金额">
+                </div>
+                <div class="form-group">
+                    <label for="text">求购数量</label>
+                    <input type="text" class="form-control" id="addbookcount" placeholder="求购数量">
+                </div>
+                <div class="form-group">
+                    <label for="InputFile">书籍图片</label>
+                    <input type="file" id="exampleInputFile">
+                    <p class="help-block">选择一张书籍图片</p>
+                </div>
+                <div type="submit" class="btn btn-primary submit2">提交</div>
+            </form>
+        </div>
+
+
+        <div class="devideLine" style="width: 1500px; position: absolute;top: 800px;"></div>
+        <ul class="pagination" style="position:absolute;left: 700px;top: 800px;">
+            <li><a href="#">&laquo;</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <!-- <li><a href="#">6</a></li>
+            <li><a href="#">7</a></li>
+            <li><a href="#">8</a></li>
+            <li><a href="#">9</a></li>
+            <li><a href="#">10</a></li> -->
+            <li><a href="#">&raquo;</a></li>
+        </ul>
+        <form class="form-inline" style="position:absolute;left: 950px;top: 820px;">
+            <div class="form-group">
+                <label for="text">书籍名称</label>
+                <input type="name" class="form-control" id="bookName" placeholder="书籍名称">
+            </div>
+            <div class="btn btn-default select">查询</div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>

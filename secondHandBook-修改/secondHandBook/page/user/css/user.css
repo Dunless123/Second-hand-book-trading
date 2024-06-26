@@ -1,0 +1,126 @@
+.navItem{
+    font-size: 17px;
+    
+}
+
+.addmsg{
+    width: 1400px;
+    height: 400px;
+    display: inline-flex;
+    margin-top: 100px;
+    margin-left: 130px; 
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.personMsg{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.items{
+    width: 250px;
+    height: 40px;
+    display: inline-flex;
+    float: left;
+    align-items: center;
+    
+}
+
+.items input{
+    width: 180px;
+    height: 30px;
+    display: inline-flex;
+    float: right;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px;
+    outline: none;
+    color: #6495ED;
+    border: 1px solid lightskyblue;
+}
+
+.items span{
+    height: 25px;
+    margin-right: 4px;
+    text-align: center;
+    color:  #1E90FF;
+    font-size: large;
+    /* font-family: ; */
+}
+
+.items input{
+    width: 100%;
+    /* border: none;
+    outline: none; */
+}
+.one{
+    width: 380px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.two{
+    width: 380px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.three{
+    width: 380px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sltphoto{
+    width: 120px;
+    height: 200px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.sltphoto span{
+    display: flex;
+    justify-content: center
+}
+
+.sltphoto>input{ 
+    position: absolute;
+    bottom: -5px; 
+    left: 10px;
+    right: 10px; 
+    /* opacity: 0; */
+    width:100px;
+}
+
+.button{
+    width: 250px;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    left: 680px;
+}
+
+.button button{
+    width: 250px;
+    height: 40px;
+    background-color: #2d8cf0;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.button:hover button{
+    background-color: #57a3f3;
+}
+

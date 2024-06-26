@@ -1,0 +1,21 @@
+.navItem{
+    font-size: 17px;
+    
+}
+.bookSaleBlock {
+    width: 1500px;
+    height: 800px;
+    background-color: white;
+    opacity: 0.9;
+    margin-top: 65px;
+    margin-left: 92px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.shutIcon {
+    cursor: pointer;
+    left: 280px;
+    font-size: 25px;
+}

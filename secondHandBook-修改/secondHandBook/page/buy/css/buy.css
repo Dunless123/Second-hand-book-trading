@@ -1,0 +1,80 @@
+.navItem {
+    font-size: 17px;
+
+}
+
+.bookSaleBlock {
+    width: 1500px;
+    height: 800px;
+    background-color: white;
+    opacity: 0.9;
+    margin-top: 65px;
+    margin-left: 92px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.addForm,
+.addForm2 {
+    width: 600px;
+    height: 450px;
+    background-color: rgba(234, 229, 229, 0.9);
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.1);
+    display: none;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInBottom;
+}
+
+@keyframes fadeInBottom {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+
+.addForm .form-group,
+.addForm2 .form-group {
+    padding-top: 10px;
+
+}
+
+.addForm form,
+.addForm2 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addForm button,
+.addForm2 button {
+    width: 200px;
+}
+
+.shutIcon,
+.shutIcon2 {
+    cursor: pointer;
+    left: 280px;
+    font-size: 25px;
+}
+
+tbody>tr>td {
+    text-align: center;
+    top: 5px;
+}
+
+thead>tr>th {
+    text-align: center;
+}
+
+td>a {
+    color: black;
+}
